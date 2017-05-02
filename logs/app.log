@@ -4,3 +4,8 @@
 [2017-05-01 21:40:06.012-0700] Severity="INFO" It is a get request
 [2017-05-01 22:03:17.037-0700] Severity="INFO" Log4js is setup
 [2017-05-01 22:03:26.628-0700] Severity="INFO" It is a get request
+[2017-05-01 22:55:24.929-0700] Severity="INFO" Log4js is setup
+[2017-05-01 22:55:24.936-0700] Severity="INFO" starting Express Server
+[2017-05-01 22:55:24.940-0700] Severity="INFO" listen on port  8080
+[2017-05-01 22:55:38.709-0700] Severity="INFO" It is a get request
+[2017-05-01 22:55:43.756-0700] Severity="INFO" It is a post request
