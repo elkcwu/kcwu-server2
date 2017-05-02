@@ -15,9 +15,10 @@ app.use(bodyParser.urlencoded({
 log4js.configure(path.join(__dirname, './config/log4js-configuration.json'));
 app.loggers = log4js;
 var logger = app.loggers.getLogger('app');
+var serviceController = require('./app/controllers/service-controller')(app);
 logger.info('Log4js is setup');
 
-app.get('/', function(req, res){
+app.get('/*', function(req, res){
     res.send('It is a get reqest');
     logger.info('It is a get request');
 
