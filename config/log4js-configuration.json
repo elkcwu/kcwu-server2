@@ -1,0 +1,37 @@
+{
+    "type": "clustered",
+    "appenders": [{
+        "type": "console",
+        "layout": {
+            "type": "pattern",
+            "pattern": "%[[%d%d{O}] Severity=\"%p\"%] %m"
+        }
+    }, {
+        "type": "file",
+        "absolute": true,
+        "filename": "./logs/app.log",
+        "maxLogSize": 10485760,
+        "backups": 10,
+        "category": "app",
+        "layout": {
+            "type": "pattern",
+            "pattern": "[%d%d{O}] Severity=\"%p\" %m"
+        }
+    }, {
+        "type": "file",
+        "absolute": true,
+        "filename": "./logs/kcwu-service.log",
+        "maxLogSize": 10485760,
+        "backups": 10,
+        "category": "kcwu-service",
+        "layout": {
+            "type": "pattern",
+            "pattern": "[%d%d{O}] Severity=\"%p\" %m"
+        }
+    }],
+    "levels": {
+        "console": "TRACE",
+        "app": "INFO",
+        "lead-proxy-service": "INFO"
+    }
+}

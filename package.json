@@ -1,0 +1,37 @@
+{
+  "name": "kcwu-server2",
+  "version": "1.0.0",
+  "description": "server with express",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elkcwu/kcwu-server2.git"
+  },
+  "keywords": [
+    "server"
+  ],
+  "author": "Kevin Wu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elkcwu/kcwu-server2/issues"
+  },
+  "homepage": "https://github.com/elkcwu/kcwu-server2#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "config": "^1.25.1",
+    "cookie-parser": "^1.4.3",
+    "cookie-session": "^2.0.0-beta.1",
+    "log4js": "^1.1.1",
+    "path": "^0.12.7"
+  }
+}
